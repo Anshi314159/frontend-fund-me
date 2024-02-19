@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    background-image: url(1239284.jpg);
+    /* background-image: url(1239288.png);   */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-left: 40px;
+    margin-right: 50px;
+    
+}
+.container nav{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.container nav ul{
+    flex: 1;
+}
+
+.container nav #connectButton{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+.content{
+    margin-top: 1.5%;
+    color: aqua;
+}
+.content h1{
+    font-size: 88px;
+    margin-bottom: 12px;
+}
+.content h1 span{
+    color: whitesmoke;
+}
+.content p{
+    font-size: 23px;
+    margin-bottom: 75px;
+    
+}
+.content label{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 50px;
+}
+.content input{
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.content #fundButton{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: aqua;
+    font-size: 25px;
+    color: white;
+    width: 250px;
+    border: 2px solid white;
+    
+}
+
+.owner {
+    position: absolute;
+    right: 5%;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#withdrawButton{
+    display: inline-block;
+    align-items: center;
+    font-size: 23px;
+    margin: 0 15px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: aqua; 
+    width: 200px ;
+    color: white;
+    border: 2px solid white;
+}
+#balanceButton{
+    display: inline-block;
+    align-items: center;
+    font-size: 23px;
+    margin: 0px 0px 0px 10px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: aqua;
+    width: 200px;
+    color: white;
+    border: 2px solid white;
+}
